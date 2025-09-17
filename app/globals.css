@@ -4,7 +4,8 @@
 
 :root { color-scheme: light dark; }
 html { scroll-behavior: smooth; }
-body { @apply bg-gradient-to-b from-zinc-50 to-white text-zinc-900 dark:from-zinc-950 dark:to-zinc-900 dark:text-zinc-100; }
+/* Warm light-brown to sky-blue background */
+body { @apply bg-gradient-to-b from-[#F4E7D3] to-[#E6F3FF] text-zinc-900 dark:from-zinc-950 dark:to-zinc-900 dark:text-zinc-100; }
 .container { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
 .card { @apply rounded-2xl border bg-white/70 dark:bg-zinc-900/60 backdrop-blur; }
 .badge { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs backdrop-blur bg-white/60 dark:bg-zinc-900/60; }
